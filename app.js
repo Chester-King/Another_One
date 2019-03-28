@@ -13,7 +13,7 @@ var commentRoutes=require("./routes/comments"),
     postRoutes=require("./routes/posts"),
     indexRoutes=require("./routes/index");
 
-mongoose.connect("mongodb://localhost/connect+");
+mongoose.connect("mongodb://harshanand:qwe123rty@ds141613.mlab.com:41613/sportsadda");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
 app.use(methodOverride("_method"));
